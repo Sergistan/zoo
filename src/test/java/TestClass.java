@@ -52,7 +52,6 @@ public class TestClass {
     public void countProductIsNull(int x) {
         basketClass.userCanAddProductIntoBasket();
         countProductClass.inputValue(x);
-        countProductClass.checkCountProduct(x);
     }
 
     @Epic(value = "Тестирование страницы заказа")
