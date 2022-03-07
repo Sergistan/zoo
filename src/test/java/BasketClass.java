@@ -10,20 +10,23 @@ public class BasketClass extends BaseClass {
     private final SelenideElement numbersProducts = $(By.xpath("//div[@class= 't706__carticon-counter js-carticon-counter']"));
     private final SelenideElement yourOrder = $(By.xpath("//div[text()='Ваш заказ:']"));
 
-    @Step("Нажимаем на кнопку добавить в корзину")
-    public void userCanAddProductIntoBasket() {
+/*Выбираем корм и жмем на кнопку "Добавить в корзину" */
+    public void addProduct (){
         click(dogsEats);
         checkText(addToBasket, "Добавить в корзину");
         click(addToBasket);
+    }
+
+    @Step("Нажимаем на кнопку добавить в корзину и проверяем, что окно заказа открылось")
+    public void userCanAddProductIntoBasket() {
+        addProduct();
         click(numbersProducts);
         checkVisible(yourOrder);
     }
 
-    @Step("Проверяем, что на иконке корзины количество отображаемого товара равно 1")
+    @Step("Нажимаем на кнопку добавить в корзину и проверяем, что на иконке корзины количество отображаемого товара равно 1")
     public void checkNumberOrdersOnIcon(String x) {
-        click(dogsEats);
-        checkText(addToBasket, "Добавить в корзину");
-        click(addToBasket);
+        addProduct();
         checkText(numbersProducts, x);
     }
 }
