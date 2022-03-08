@@ -1,0 +1,124 @@
+{
+  "uid" : "eafe6ba62d625847",
+  "name" : "Тест №3 [2] 0",
+  "fullName" : "TestClass.countProductIsNull",
+  "historyId" : "d77e07084034626d64e58e0f77c1a7fd",
+  "time" : {
+    "start" : 1646738141157,
+    "stop" : 1646738144489,
+    "duration" : 3332
+  },
+  "description" : "Тест прогоняет граничные значания для количества заказов в поле заказов",
+  "descriptionHtml" : "<p>Тест прогоняет граничные значания для количества заказов в поле заказов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест прогоняет граничные значания для количества заказов в поле заказов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем на кнопку добавить в корзину и проверяем, что окно заказа открылось",
+      "time" : {
+        "start" : 1646738142834,
+        "stop" : 1646738143702,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Пользователь вводит количество товара: \"0\"",
+      "time" : {
+        "start" : 1646738143702,
+        "stop" : 1646738143896,
+        "duration" : 194
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "x",
+        "value" : "0"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a53cd8d154bb341d",
+      "name" : "Возвращаемое значение в поле",
+      "source" : "a53cd8d154bb341d.txt",
+      "type" : "text/plain",
+      "size" : 1
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:TestClass]/[test-template:countProductIsNull(int)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "epic",
+    "value" : "Тестирование страницы заказа"
+  }, {
+    "name" : "feature",
+    "value" : "Тестирование поля количества товаров в корзине"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1M4DEH2"
+  }, {
+    "name" : "thread",
+    "value" : "2268@DESKTOP-1M4DEH2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestClass"
+  }, {
+    "name" : "testClass",
+    "value" : "TestClass"
+  }, {
+    "name" : "testMethod",
+    "value" : "countProductIsNull"
+  }, {
+    "name" : "suite",
+    "value" : "Тестирование сайта корма для домашних животных"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eafe6ba62d625847.json",
+  "parameterValues" : [ ]
+}

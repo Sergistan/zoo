@@ -1,0 +1,103 @@
+{
+  "uid" : "85b87d0ff2f1ca37",
+  "name" : "Тест №2",
+  "fullName" : "TestClass.CheckCountOrder",
+  "historyId" : "97c39e21e0547ada0977fdb5ba25d4f3",
+  "time" : {
+    "start" : 1646738118005,
+    "stop" : 1646738122582,
+    "duration" : 4577
+  },
+  "description" : "Тест проверяет проверяет количество товара на иконке при разовом нажатии \"Добавить в корзину\"",
+  "descriptionHtml" : "<p>Тест проверяет проверяет количество товара на иконке при разовом нажатии &quot;Добавить в корзину&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Тест проверяет проверяет количество товара на иконке при разовом нажатии \"Добавить в корзину\"",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажимаем на кнопку добавить в корзину и проверяем, что на иконке корзины количество отображаемого товара равно 1",
+      "time" : {
+        "start" : 1646738121311,
+        "stop" : 1646738121966,
+        "duration" : 655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "x",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:TestClass]/[method:CheckCountOrder()]"
+  }, {
+    "name" : "epic",
+    "value" : "Тестирование страницы заказа"
+  }, {
+    "name" : "feature",
+    "value" : "Тестирование поля количества товаров в корзине"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1M4DEH2"
+  }, {
+    "name" : "thread",
+    "value" : "2268@DESKTOP-1M4DEH2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TestClass"
+  }, {
+    "name" : "testClass",
+    "value" : "TestClass"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckCountOrder"
+  }, {
+    "name" : "suite",
+    "value" : "Тестирование сайта корма для домашних животных"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85b87d0ff2f1ca37.json",
+  "parameterValues" : [ ]
+}

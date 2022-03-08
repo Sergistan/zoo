@@ -1,0 +1,179 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Тестирование сайта корма для домашних животных",
+    "children" : [ {
+      "name" : "Тест №2",
+      "uid" : "85b87d0ff2f1ca37",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738118005,
+        "stop" : 1646738122582,
+        "duration" : 4577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №5",
+      "uid" : "22b5eea37b006d67",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738122689,
+        "stop" : 1646738126032,
+        "duration" : 3343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №4",
+      "uid" : "954f68fff7e1e28b",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738126039,
+        "stop" : 1646738129308,
+        "duration" : 3269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №1",
+      "uid" : "b6eef387af87b299",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738129313,
+        "stop" : 1646738132462,
+        "duration" : 3149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №6",
+      "uid" : "885777f71b52fb2c",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738132467,
+        "stop" : 1646738137504,
+        "duration" : 5037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №3 [1] -1",
+      "uid" : "425a36fdadea463a",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738137530,
+        "stop" : 1646738141151,
+        "duration" : 3621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №3 [2] 0",
+      "uid" : "eafe6ba62d625847",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738141157,
+        "stop" : 1646738144489,
+        "duration" : 3332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №3 [3] 1",
+      "uid" : "e705d9484718b7aa",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738144496,
+        "stop" : 1646738147845,
+        "duration" : 3349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №3 [4] 999",
+      "uid" : "72c936d310a0c8a8",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646738147850,
+        "stop" : 1646738151177,
+        "duration" : 3327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Тест №3 [5] 1000",
+      "uid" : "155b1476120e5089",
+      "parentUid" : "9482b62e441211eda682571537350f14",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646738151185,
+        "stop" : 1646738154520,
+        "duration" : 3335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9482b62e441211eda682571537350f14"
+  } ]
+}

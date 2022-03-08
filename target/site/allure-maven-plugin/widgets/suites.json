@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "9482b62e441211eda682571537350f14",
+    "name" : "Тестирование сайта корма для домашних животных",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}
